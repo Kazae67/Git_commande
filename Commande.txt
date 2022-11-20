@@ -14,3 +14,8 @@ EFFACER UN FICHIER
 [1]git rm file.x
 [2]git commit -m "commentaire"
 [3]git push
+
+EFFACER UN FICHIER SEULEMENT DANS LE REPOSITORY
+[1]$git rm --cached file.x
+[2]git commit -m "commentaire"
+[3] git push
